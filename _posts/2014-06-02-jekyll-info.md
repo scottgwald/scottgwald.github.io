@@ -1,5 +1,5 @@
 ---
-title: Jekyll Info, oh yeah
+title: Jekyll Info
 ---
 
 # Jekyll Info
