@@ -1,12 +1,11 @@
 ---
+title: Jekyll Info, oh yeah
 ---
 
-# Testing Jekyll
+# Jekyll Info
 
-Hopefully this will work for:
+To run locally `bundle exec jekyll serve`
 
-* All 
-* Kinds 
-* Of
-* Stuff
+* [Directory Structure](http://jekyllrb.com/docs/structure/)
+* [GitHub Pages + Jekyll](https://help.github.com/articles/using-jekyll-with-pages)
 
