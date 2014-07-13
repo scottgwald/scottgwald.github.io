@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <meta charset="utf-8"/>
-        <title>{% if page.title %} {{ page.title }} | {% endif %} {{ site.name }}</title>
-        <meta name="description" content="{{site.description}}"/>
-        <meta name="author" content="{{site.author}}"/>
-    </head>
+<head>
+    <meta charset="utf-8"/>
+    <title>{% if page.title %} {{ page.title }} | {% endif %} {{ site.name }}</title>
+    <meta name="description" content="{{site.description}}"/>
+    <meta name="author" content="{{site.author}}"/>
+</head>
 
-    <body>
-        <h1> {{ page.title }}</h1>
+<body>
+<h1> {{ page.title }}</h1>
 
-        <main>
+<main>
+    {{ content }}
+</main>
 
-            {{ content }}
-
-        </main>
-    </body>
+</body>
 
 </html>
